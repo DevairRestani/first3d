@@ -85,8 +85,8 @@ var scene = new THREE.Scene();
 // create a new RGBELoader to import the HDR
 const hdrEquirect = new RGBELoader()
     // add your HDR //
-    .setPath('https://raw.githubusercontent.com/miroleon/gradient_hdr_freebie/main/Gradient_HDR_Freebies/')
-    .load('ml_gradient_freebie_01.hdr', function () {
+    .setPath('./hdr')
+    .load('hdr1.hdr', function () {
 
         hdrEquirect.mapping = THREE.EquirectangularReflectionMapping;
     });
