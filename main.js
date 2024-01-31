@@ -175,3 +175,5 @@ function animate() {
 }
 
 requestAnimationFrame(animate);
+
+// update runner
