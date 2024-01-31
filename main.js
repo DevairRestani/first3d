@@ -126,7 +126,7 @@ const material1 = new THREE.MeshStandardMaterial({
 // Load the model
 const objloader = new OBJLoader();
 objloader.load(
-    'first3d/open-source-buddha/buddha.obj',
+    'open-source-buddha/buddha.obj',
     function (object) {
         object.children[0].material = material1;
         object.scale.setScalar(0.05);
