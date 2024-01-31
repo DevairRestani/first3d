@@ -85,7 +85,7 @@ var scene = new THREE.Scene();
 // create a new RGBELoader to import the HDR
 const hdrEquirect = new RGBELoader()
     // add your HDR //
-    .setPath('./hdr')
+    .setPath('./hdr/')
     .load('hdr1.hdr', function () {
 
         hdrEquirect.mapping = THREE.EquirectangularReflectionMapping;
