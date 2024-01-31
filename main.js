@@ -126,10 +126,10 @@ const material1 = new THREE.MeshStandardMaterial({
 // Load the model
 const objloader = new OBJLoader();
 objloader.load(
-    './fruit_cake/fruit_cake_slice.obj',
+    'first3d/open-source-buddha/buddha.obj',
     function (object) {
         object.children[0].material = material1;
-        object.scale.setScalar(35);
+        object.scale.setScalar(0.05);
         object.position.set(0, 0, 0);
         group.add(object);
     },
